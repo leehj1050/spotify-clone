@@ -104,3 +104,9 @@ header img {
     display: flex;
   }
 }
+body.active {
+  overflow: hidden;
+}
+body.active section {
+  pointer-events: none;
+}

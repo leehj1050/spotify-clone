@@ -2,6 +2,7 @@ let mb_icon = document.querySelector(".menuIcon");
 
 mb_icon.addEventListener("click", () => {
   document.querySelector(".mb_nav").classList.toggle("active");
+  document.querySelector("body").classList.toggle("active");
 });
 
 //open n close
